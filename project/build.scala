@@ -3,8 +3,8 @@ import Keys._
 
 object BuildSettings {
   /** Must match scala version used by eclipse scala ide. */
-  val ScalaVersion = "2.11.4"
-  val ParadiseVersion = "2.1.0-M3"
+  val ScalaVersion = "2.11.5"
+  val ParadiseVersion = "2.1.0-SNAPSHOT"
   val buildSettings = Defaults.defaultSettings ++ Seq(
     organization := "com.carrotgarden.scala",
     version := "0.0.0",
